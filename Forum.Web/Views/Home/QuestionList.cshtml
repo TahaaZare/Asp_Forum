@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "سوالات";
+    Layout = "_Layout";
+}
+
+@section Header {
+    <partial name="_Header"/>
+    <!-- Start Mobile Menu Area  -->
+    <partial name="_MobileMenu"/>
+}
+
+<div class="axil-post-list-area axil-section-gap bg-color-white">
+    <div class="container">
+        <div class="row">
+            @await Component.InvokeAsync("QuestionList")
+        </div>
+    </div>
+</div>

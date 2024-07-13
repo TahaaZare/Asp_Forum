@@ -1,0 +1,42 @@
+﻿@model Forum.Domain.ViewModels.Auth.LoginViewModel
+@{
+    ViewData["Title"] = "ورود";
+}
+@section Header {
+    <partial name="_Header" />
+    <!-- Start Mobile Menu Area  -->
+    <partial name="_MobileMenu" />
+}
+
+<div class="d-flex justify-content-center">
+    <div class=" axil-section-gapTop axil-contact-form-area">
+        <form asp-action="Login" asp-controller="Auth" method="POST" class="">
+            <input type="hidden" asp-for="ReturnUrl">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="form-group">
+                        <label>نام کاربری</label>
+                        <input type="text" asp-for="Username">
+                    </div>
+                    <span asp-validation-for="Username" class="text-danger"></span>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="form-group">
+                        <label>رمز عبور</label>
+                        <input type="password" asp-for="Password">
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <div class="form-submit">
+                        <button type="submit" class="axil-button button-rounded btn-primary">ارسال</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_JqueryValidation" />
+}

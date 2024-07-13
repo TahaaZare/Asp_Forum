@@ -1,0 +1,23 @@
+﻿@using Forum.Domain.ViewModels.Question.Answer
+@model AnswerQuestionViewModel
+
+<form method="post" asp-area="UserPanel" asp-controller="Question" asp-action="AnswerQuestion" id="AnswerQuestionForm"
+      data-ajax="true"
+      data-ajax-method="post"
+      data-ajax-success="AnswerQuestionFormDone">
+    <input type="hidden" asp-for="Question_id">
+    <div class="row row--10">
+        <div class="col-12">
+            <div class="form-group">
+                <label>پاسخ شما</label>
+                <textarea  class="editor" asp-for="Message"></textarea>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="form-submit cerchio" style="transform: matrix(1, 0, 0, 1, 0, 0);">
+                <input name="submit" type="submit" id="submit" class="axil-button button-rounded" value="ثبت پاسخ">
+            </div>
+        </div>
+    </div>
+</form>
+

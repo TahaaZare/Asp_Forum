@@ -1,0 +1,54 @@
+﻿
+<!doctype html>
+<html class="no-js" lang="fa">
+
+<head>
+    <partial name="_MetaTags" />
+    @await RenderSectionAsync("MetaTags", false)
+
+    <partial name="_HeaderRefrences" />
+    @await RenderSectionAsync("HeaderRefreces", false)
+</head>
+
+<body dir="rtl">
+    <div id="preloader">
+        <span class="loader"></span>
+    </div>
+    <div class="main-wrapper">
+        <div class="mouse-cursor cursor-outer"></div>
+        <div class="mouse-cursor cursor-inner"></div>
+
+        <div id="my_switcher" class="my_switcher">
+            <ul>
+                <li>
+                    <a href="javascript: void(0);" data-theme="light" class="setColor light">
+                        <span title="Light Mode">روشن</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" data-theme="dark" class="setColor dark">
+                        <span title="Dark Mode">تیره</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        @await RenderSectionAsync("Header",true)
+        
+        @RenderBody()
+
+        <!-- Start Footer Area  -->
+        <partial name="_Footer" />
+        <!-- End Footer Area  -->
+        <!-- Start Back To Top  -->
+        <a id="backto-top"></a>
+        <!-- End Back To Top  -->
+    </div>
+
+
+    <partial name="_Scripts" />
+    <partial name="_Alerts" />
+    @await RenderSectionAsync("Scripts", false)
+</body>
+
+</html>

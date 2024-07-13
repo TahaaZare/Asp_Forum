@@ -1,0 +1,30 @@
+﻿@using Forum.Application.Statics
+@model List<Forum.Domain.Models.Content.Banner>
+<h1 class="d-none">نسخه شماره 1</h1>
+<div class="slider-area bg-color-grey">
+    <div class="axil-slide slider-style-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="slider-activation axil-slick-arrow">
+                        <!-- Start Single Slide  -->
+                        @foreach (var item in Model)
+                        {
+                            <div class="content-block">
+                                <div class="post-thumbnail">
+                                    <a href="@item.Url" target="_blank">
+                                        @{
+                                        var image = Paths.BannerPath + item.Image;
+                                        }
+                                        <img src="@image" alt="Post Images">
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

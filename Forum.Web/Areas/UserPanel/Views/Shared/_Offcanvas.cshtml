@@ -1,0 +1,49 @@
+﻿<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebarPanel">
+    <div class="offcanvas-body">
+        <ul class="listview flush transparent no-line image-listview mt-2">
+            <li>
+                <a asp-controller="Home" asp-action="Index" class="item">
+                    <div class="icon-box bg-primary">
+                        <ion-icon name="home-outline">
+                            <i class="fas fa-home" aria-hidden="true"></i>
+                        </ion-icon>
+                    </div>
+                    <div class="in">
+                        خانه
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a asp-controller="Home" asp-action="QuestionList" class="item">
+                    <div class="icon-box bg-primary">
+                        <ion-icon name="home-outline">
+                            <i class="fas fa-question" aria-hidden="true"></i>
+                        </ion-icon>
+                    </div>
+                    <div class="in">
+                        سوالات
+                    </div>
+                </a>
+            </li>
+
+            @* <li class="text-center"> *@
+            @*     <span class="badge bg-primary"> *@
+            @*         بخش ادمین *@
+            @*     </span> *@
+            @* </li> *@
+            @* <li> *@
+            @*     <a href="{{ route('admin.course.index', $user->username) }}" class="item"> *@
+            @*         <div class="icon-box bg-primary"> *@
+            @*             <ion-icon name="home-outline"> *@
+            @*                 <i class="fas fa-user-graduate" aria-hidden="true"></i> *@
+            @*             </ion-icon> *@
+            @*         </div> *@
+            @*         <div class="in"> *@
+            @*             بخش دوره ها *@
+            @*         </div> *@
+            @*     </a> *@
+            @* </li> *@
+        </ul>
+    </div>
+    <partial name="_SideBar"/>
+</div>

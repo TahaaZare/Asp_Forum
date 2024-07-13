@@ -1,0 +1,79 @@
+﻿@using Forum.Application.Services.Interfaces.Question
+@using Forum.Domain.Models.Questions
+@inject IQuestionCategoryService service;
+@inject IQuestionTagService _TagService;
+@model Forum.Domain.ViewModels.Question.Answer.EditAnswerViewModel
+@{
+    TempData["Title"] = "ویرایش پاسخ";
+    Layout = "_Layout";
+}
+
+@section Header
+{
+    <partial name="Header" />
+}
+
+@section AppMenu
+{
+    <partial name="_AppMenu" />
+}
+
+
+<div class="section full mt-2 mb-2">
+    <a class="m-2" asp-controller="Home" asp-action="QuestionDetail" asp-route-id="@Model.Question_id">
+        بازگشت
+    </a>
+    <div class="wide-block pb-1 pt-1 container shadow rounded" style="border-radius: 1rem">
+        <form asp-area="UserPanel" asp-controller="Question" asp-route-answerId="@Model.Answer_id" asp-action="EditAnswer" method="post">
+            <input type="hidden" asp-for="Answer_id" />
+
+            <div class="form-group basic">
+                <div class="input-wrapper">
+                    <label class="form-label">متن</label>
+                    <textarea asp-for="Message" type="text" rows="10" class="form-control editor" placeholder="متن . . . ">@Model.Message</textarea>
+                    <i class="clear-input">
+                        <ion-icon name="close-circle" role="img" class="md hydrated" aria-label="close circle"></ion-icon>
+                    </i>
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+                ثبت
+            </button>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_JqueryValidation" />
+    <partial name="_Ckeditor" />
+    <script>
+        const watchdog = new CKSource.EditorWatchdog();
+        window.watchdog = watchdog;
+        watchdog.setCreator((element, config) => {
+            return CKSource.Editor
+                .create(element, config)
+                .then(editor => {
+                    return editor;
+                })
+        });
+
+        watchdog.setDestructor(editor => {
+            return editor.destroy();
+        });
+
+        watchdog.on('error', handleError);
+
+        watchdog
+            .create(document.querySelector('.editor'), {
+                licenseKey: '',
+            })
+            .catch(handleError);
+
+
+        function handleError(error) {
+            console.error(error);
+        }
+    </script>
+}

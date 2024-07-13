@@ -1,0 +1,17 @@
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Data.deps.json
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Data.runtimeconfig.json
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Data.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Data.pdb
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Domain.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\bin\Release\net8.0\Forum.Domain.pdb
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.csproj.AssemblyReference.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.AssemblyInfoInputs.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.AssemblyInfo.cs
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.csproj.CoreCompileInputs.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.csproj.Up2Date
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\refint\Forum.Data.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.pdb
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\Forum.Data.genruntimeconfig.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Data\obj\Release\net8.0\ref\Forum.Data.dll

@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <partial name="_MetaTags"/>
+    @await RenderSectionAsync("MetaTags", false)
+    <partial name="_HeadTag"/>
+    @await RenderSectionAsync("HeadTags", false)
+</head>
+
+<body>
+<!-- loader -->
+<div id="loader">
+    <div class="spinner-border text-primary" role="status"></div>
+</div>
+<!-- * loader -->
+<div id="appCapsule">
+    @await RenderSectionAsync("Header", true)
+    @RenderBody()
+</div>
+<!-- * App Capsule -->
+
+@await RenderSectionAsync("AppMenu", true)
+<!-- App Sidebar -->
+<partial name="_Offcanvas"/>
+<!-- * App Sidebar -->
+
+<partial name="_Scripts"/>
+<partial name="_Alerts"/>
+@await RenderSectionAsync("Scripts", false)
+</body>
+</html>

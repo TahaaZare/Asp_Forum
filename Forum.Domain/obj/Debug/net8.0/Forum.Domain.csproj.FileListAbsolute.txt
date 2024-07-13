@@ -1,0 +1,14 @@
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\bin\Debug\net8.0\Forum.Domain.deps.json
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\bin\Debug\net8.0\Forum.Domain.runtimeconfig.json
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\bin\Debug\net8.0\Forum.Domain.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\bin\Debug\net8.0\Forum.Domain.pdb
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.csproj.AssemblyReference.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.AssemblyInfoInputs.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.AssemblyInfo.cs
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.csproj.CoreCompileInputs.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\refint\Forum.Domain.dll
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.pdb
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\Forum.Domain.genruntimeconfig.cache
+E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Domain\obj\Debug\net8.0\ref\Forum.Domain.dll

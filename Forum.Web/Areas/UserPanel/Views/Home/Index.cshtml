@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@section Header
+{
+    <partial name="Header"/>
+}
+@section AppMenu
+{
+    <partial name="_AppMenu"/>
+}
+
+<div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        @await Component.InvokeAsync("UserInfo")
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-12">
+       @await Component.InvokeAsync("UserQuestionList")
+    </div>
+</div>

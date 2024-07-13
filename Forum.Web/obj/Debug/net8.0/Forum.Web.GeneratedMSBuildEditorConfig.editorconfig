@@ -1,0 +1,291 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Forum.Web
+build_property.RootNamespace = Forum.Web
+build_property.ProjectDir = E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = E:\WEB\BACK-END\Asp\Forum\Forum.Solution\Forum.Web
+build_property._RazorSourceGeneratorDebug = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/AdminTag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xBZG1pblRhZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Banner/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCYW5uZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Banner/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCYW5uZXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Banner/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xCYW5uZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Home/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xIb21lXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/QuestionCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xRdWVzdGlvbkNhdGVnb3J5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/QuestionCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xRdWVzdGlvbkNhdGVnb3J5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/QuestionCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xRdWVzdGlvbkNhdGVnb3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Question/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xRdWVzdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminLeftSide.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluTGVmdFNpZGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminMetTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluTWV0VGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluTmF2YmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminScripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluU2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminSidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluU2lkZWJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_AdminStyles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FkbWluU3R5bGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/Shared/_Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0FsZXJ0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xVc2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/AdminPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5QYW5lbFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Account/EditProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEFjY291bnRcRWRpdFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Question/CreateQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFF1ZXN0aW9uXENyZWF0ZVF1ZXN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Question/EditAnswer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFF1ZXN0aW9uXEVkaXRBbnN3ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Question/EditQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFF1ZXN0aW9uXEVkaXRRdWVzdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/Components/UserInfo/UserInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFVzZXJJbmZvXFVzZXJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/Components/UserQuestionList/UserQuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxDb21wb25lbnRzXFVzZXJRdWVzdGlvbkxpc3RcVXNlclF1ZXN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxIZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfQWxlcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_AppMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfQXBwTWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_HeadTag.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfSGVhZFRhZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_MetaTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfTWV0YVRhZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_Offcanvas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfT2ZmY2FudmFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfU2NyaXB0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/Shared/_SideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXFNoYXJlZFxfU2lkZUJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Areas/UserPanel/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclBhbmVsXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Home/QuestionDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVzdGlvbkRldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Home/QuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVzdGlvbkxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Home/QuestionListByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWVzdGlvbkxpc3RCeUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/Components/BannerHomePage/BannerHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmFubmVySG9tZVBhZ2VcQmFubmVySG9tZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/Components/LatestQuestionsInHomePage/LatestQuestionsInHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF0ZXN0UXVlc3Rpb25zSW5Ib21lUGFnZVxMYXRlc3RRdWVzdGlvbnNJbkhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/Components/QuestionAnswers/QuestionAnswers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVlc3Rpb25BbnN3ZXJzXFF1ZXN0aW9uQW5zd2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/Components/QuestionCategoryListHomePage/QuestionCategoryListHomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVlc3Rpb25DYXRlZ29yeUxpc3RIb21lUGFnZVxRdWVzdGlvbkNhdGVnb3J5TGlzdEhvbWVQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/Components/QuestionList/QuestionList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUXVlc3Rpb25MaXN0XFF1ZXN0aW9uTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Ad.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Ckeditor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Da2VkaXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_FormAnwserQuestion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb3JtQW53c2VyUXVlc3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_HeaderRefrences.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJSZWZyZW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_JqueryValidation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9KcXVlcnlWYWxpZGF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_MetaTags.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZXRhVGFncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_MobileMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb2JpbGVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Socials.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Tb2NpYWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/WEB/BACK-END/Asp/Forum/Forum.Solution/Forum.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-4osuh607bg

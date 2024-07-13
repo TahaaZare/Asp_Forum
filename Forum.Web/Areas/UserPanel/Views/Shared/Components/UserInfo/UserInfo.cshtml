@@ -1,0 +1,30 @@
+﻿@using Forum.Application.Extensions
+@model Forum.Domain.Models.Account.User
+
+<div class="section mt-2">
+    <div class="card ">
+        <div class="card-body text-center">
+            <a onclick="OpenAvatarInput()">
+                <img src="@Model.CheckUserAvatar()" style="cursor: pointer;width: 120px;height: 120px" class="rounded rounded-circle my-2 shadow" alt="@Model.Username">
+            </a>
+            <input type="file"
+                   onchange="UploadUserAvatar('@Url.Action("ChangeUserAvatar", "Home", new { area = "UserPanel" })')"
+                   name="UserAvatar" id="UserAvatar" style="display: none !important;" accept=".png, .jpg, .jpeg ,.webp">
+            <h5 class="card-title">
+                @Model.DisplayName()
+            </h5>
+            <p class="card-text">
+                @Html.Raw(Model.DisplayBio())
+            </p>
+        </div>
+        <div class="card-footer text-center text-muted  d-flex justify-content-between">
+            <a asp-area="UserPanel" asp-controller="Question" asp-action="CreateQuestion" class="btn btn-success rounded">
+                افزودن سوال
+            </a>
+            <a asp-area="UserPanel" asp-controller="Account" asp-action="EditProfile" class="btn btn-primary rounded">
+                ویرایش حساب
+            </a>
+
+        </div>
+    </div>
+</div>

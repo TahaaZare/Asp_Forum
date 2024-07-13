@@ -1,0 +1,75 @@
+﻿@using Forum.Application.Extensions
+@using Forum.Application.Services.Interfaces.Account
+@inject  IUserService _UserService;
+@{
+    var user = await _UserService.GetUserByUserName(User.GetUserName());
+}
+      <!-- Left Sidebar -->
+      <!-- #END# Left Sidebar -->
+      <aside id="leftsidebar" class="sidebar">
+          <!-- Menu -->
+          <div class="menu">
+              <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 555.2px;">
+                  <ul class="list" style="overflow: hidden; width: auto; height: 555.2px;">
+                      <li>
+                          <div class="clearfix sidebar-profile">
+                              <div class="profile-img">
+                                  <img src="@user.CheckUserAvatar()" alt="profile">
+                              </div>
+                              <div class="profile-info">
+                                  <h3>
+                                      @user.DisplayName()
+                                  </h3>
+                              </div>
+                          </div>
+                      </li>
+                          <li class="header">-- Admin Panel</li>
+                          <li class="active">
+                              <ul class="ml-menu text-center" style="display: block;">
+                                  <li>
+                                      <a href="#" onClick="return false;" class="menu-toggle">
+                                          <i class="menu-icon ti-shopping-cart-full"></i>
+                                          <span>*</span>
+                                      </a>
+                                      <ul class="ml-menu">
+                                          <li class=" text-center">
+                                              <a asp-area="AdminPanel" asp-controller="Banner" asp-action="Index">
+                                                  مدیریت بنر ها
+                                              </a>
+                                          </li>
+                                          <li class=" text-center">
+                                              <a asp-area="AdminPanel" asp-controller="AdminTag" asp-action="Index">
+                                                  مدیریت تگ ها
+                                              </a>
+                                          </li>
+                                          <li class=" text-center">
+                                              <a asp-area="AdminPanel" asp-controller="User" asp-action="Index">
+                                                  مدیریت کاربران
+                                              </a>
+                                          </li>
+                                          <li class=" text-center">
+                                              <a asp-area="AdminPanel" asp-controller="QuestionCategory" asp-action="Index">
+                                                  مدیریت دسته بندی ها
+                                              </a>
+                                          </li>
+                                          <li class=" text-center">
+                                              <a asp-area="AdminPanel" asp-controller="Question" asp-action="Index">
+                                                  مدیریت سوالات
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </li>
+                              </ul>
+                          </li>
+
+                  </ul>
+                  <div class="slimScrollBar"
+                      style="background: rgba(0, 0, 0, 0.5); width: 4px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 0px; z-index: 99; left: 1px; height: 205.361px;">
+                  </div>
+                  <div class="slimScrollRail"
+                      style="width: 4px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 0px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; left: 1px;">
+                  </div>
+              </div>
+          </div>
+          <!-- #Menu -->
+      </aside>

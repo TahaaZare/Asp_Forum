@@ -1,0 +1,132 @@
+﻿@using Forum.Application.Extensions
+@using Forum.Application.Services.Interfaces.Account
+@using Forum.Application.Services.Interfaces.Question
+@using Forum.Domain.ViewModels.Question;
+@using Forum.Domain.ViewModels.Question.Answer
+@inject IUserService _UserService;
+@inject IQuestionService _QuestionService;
+
+@model QuestionAnswersViewModel
+@{
+    var result = await _QuestionService.CheckUserQuestion(User.GetUserName(), Model.Question.Id);
+
+}
+@if (Model.Answers != null & Model.Answers.Any())
+{
+    @foreach (var item in Model.Answers)
+    {
+
+
+        @if (item.IsCorrectAnswer == true)
+        {
+
+            <li class="comment shadow my-3 p-2" style="border-radius: 2rem;border: 2px  solid green">
+                <div class="comment-body">
+                    <div class="single-comment">
+                        <div class="comment-img">
+                            <img class="shadow" src="@item.User.CheckUserAvatar()" style="width: 50px;height: 50px" alt="Author Images">
+                        </div>
+                        <div class="comment-inner">
+                            <h6 class="commenter">
+                                <a class="hover-flip-item-wrapper" href="#">
+                                    <span class="hover-flip-item">
+                                        <span data-text="@item.User.DisplayName()">
+                                            @item.User.DisplayName()
+                                        </span>
+                                    </span>
+                                </a>
+                            </h6>
+                            <div class="comment-meta">
+                                <div class="time-spent">
+                                    @item.Created_at.TimeAgo()
+                                </div>
+                                @if (result)
+                                {
+                                    <form class="mx-2" asp-controller="Home" asp-action="SelectCorrectAnswer" asp-route-answerId="@item.Id"
+                                          method="post">
+                                        <button type="submit" class="btn btn-danger mx-2">برداشتن تایید جواب درست </button>
+                                    </form>
+                                    <form class="mx-2" asp-controller="Question" asp-action="DeleteAnswer" asp-area="UserPanel" asp-route-id="@item.Id"
+                                          method="post">
+                                        <button type="submit" class="btn btn-danger mx-2">حذفـ</button>
+                                    </form>
+                                }
+                                @if (User.Identity.IsAuthenticated && await _QuestionService.CheckUserAnswer(User.GetUserName(), item.Id) == true)
+                                {
+                                    <a class="btn btn-warning mx-2" asp-area="UserPanel" asp-controller="Question" asp-action="EditAnswer" asp-route-answerId="@item.Id">
+                                        ویرایش پاسخ
+                                    </a>
+                                }
+                            </div>
+                            <div class="comment-text">
+
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        }
+        else
+        {
+            <li class="comment shadow my-3 p-2" style="border-radius: 2rem;border: 2px  solid gray">
+                <div class="comment-body">
+                    <div class="single-comment">
+                        <div class="comment-img">
+                            <img class="shadow" src="@item.User.CheckUserAvatar()" style="width: 50px;height: 50px" alt="Author Images">
+                        </div>
+                        <div class="comment-inner">
+                            <h6 class="commenter">
+                                <a class="hover-flip-item-wrapper" href="#">
+                                    <span class="hover-flip-item">
+                                        <span data-text="@item.User.DisplayName()">
+                                            @item.User.DisplayName()
+                                        </span>
+                                    </span>
+                                </a>
+                            </h6>
+                            <div class="comment-meta">
+                                <div class="time-spent">
+                                    @item.Created_at.TimeAgo()
+                                </div>
+                                @if (result)
+                                {
+                                    <form class="mx-2" asp-controller="Home" asp-action="SelectCorrectAnswer" asp-route-answerId="@item.Id"
+                                          method="post">
+                                        <button type="submit" class="btn btn-success  mx-2">
+                                            انتخاب به عنوان  جواب درست
+                                            <i class="fas fa-check"></i>
+                                        </button>
+                                    </form>
+                                    <form class="mx-2" asp-controller="Question" asp-action="DeleteAnswer" asp-area="UserPanel" asp-route-id="@item.Id"
+                                          method="post">
+                                        <button type="submit" class="btn btn-danger mx-3">حذفـ</button>
+                                    </form>
+                                }
+                                @if (User.Identity.IsAuthenticated && await _QuestionService.CheckUserAnswer(User.GetUserName(), item.Id) == true)
+                                {
+                                    <a class="btn btn-warning mx-2" asp-area="UserPanel" asp-controller="Question" asp-action="EditAnswer" asp-route-answerId="@item.Id">
+                                        ویرایش پاسخ
+                                    </a>
+                                }
+
+                            </div>
+                            <div class="comment-text">
+                                @Html.Raw(item.Description)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        }
+
+    }
+}
+else
+{
+    <div class="container">
+        <p class="m-2 p-2 alert alert-warning text-center">
+            پاسخی برای این سوال ثبت نشده است !
+        </p>
+    </div>
+}

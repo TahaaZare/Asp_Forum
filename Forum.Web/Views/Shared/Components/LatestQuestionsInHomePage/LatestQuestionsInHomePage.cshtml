@@ -1,0 +1,84 @@
+﻿@using Forum.Application.Extensions
+@using Forum.Domain.Models.Questions
+@model List<Question>
+@{
+    var count = 00;
+}
+<div class="axil-trending-post-area index-1 axil-section-gap bg-color-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-right">
+                    <h3 class="title">آخرین سوالات</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Start Axil Tab Content  -->
+                <div class="tab-content">
+                    <!-- Single Tab Content  -->
+                    <div class="row trend-tab-content tab-pane fade show active" id="trendone" role="tabpanel" aria-labelledby="trend-one">
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-lg-12">
+                                <!-- Start Single Post  -->
+                                <div class="content-block trend-post post-order-list axil-control">
+                                    <div class="post-inner">
+                                        @{
+                                            count += 1;
+                                        }
+                                        <span class="post-order-list">@( count.ToString("00"))</span>
+                                        <div class="post-content">
+                                            <div class="post-cat">
+                                                <div class="post-cat-list">
+                                                    <a class="hover-flip-item-wrapper" asp-action="QuestionDetail" asp-controller="Home" asp-route-id="@item.Id">
+                                                        <span class="hover-flip-item">
+                                                            <span data-text="@item.QuestionCategory.Name">@item.QuestionCategory.Name</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <h3 class="title">
+                                                <a asp-action="QuestionDetail" asp-controller="Home" asp-route-id="@item.Id">
+                                                    @item.Title
+                                                </a>
+                                            </h3>
+                                            <div class="post-meta-wrapper">
+                                                <div class="post-meta">
+                                                    <div class="content">
+                                                        <h6 class="post-author-name">
+                                                            <a class="hover-flip-item-wrapper" href="author.html">
+                                                                <span class="hover-flip-item">
+                                                                    <span data-text="@item.User.DisplayName()">
+                                                                        @item.User.DisplayName()
+                                                                    </span>
+                                                                </span>
+                                                            </a>
+                                                        </h6>
+                                                        <ul class="post-meta-list">
+                                                            <li>
+                                                                @item.Created_at.Shamsi()
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <ul class="social-share-transparent justify-content-end">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-link"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <!-- End Axil Tab Content  -->
+            </div>
+        </div>
+    </div>
+</div>

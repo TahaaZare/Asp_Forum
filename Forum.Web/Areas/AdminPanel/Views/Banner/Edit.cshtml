@@ -1,0 +1,68 @@
+﻿@using Forum.Application.Statics
+@model Forum.Domain.ViewModels.Content.Banner.EditBannerViewModel
+@{
+    TempData["Title"] = "ویرایش";
+    Layout = "_AdminLayout";
+}
+
+<div class="clearfix row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+            </div>
+            <div class="body table-responsive">
+                @{
+                    var image = Paths.BannerPath + Model.ImageFileName;
+                }
+                <img src="@image" style="width: 50%;height: 50%;border-radius: 1rem" alt="">
+                <form asp-area="AdminPanel" asp-controller="Banner" asp-action="Edit" asp-route-id="@Model.Id" method="post" enctype="multipart/form-data">
+                    <input type="hidden" asp-for="ImageFileName">
+                    <input type="hidden" asp-for="Id">
+                    <div class="clearfix row">
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                </span>
+                                <div class="form-line">
+                                    <input type="text" asp-for="Title" value="@Model.Title"
+                                           class="form-control" placeholder="Title . . .">
+                                </div>
+                                <span asp-validation-for="Title" class="p-1 text-danger " role="alert">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                </span>
+                                <div class="form-line">
+                                    <input type="text" asp-for="Url" value="@Model.Url"
+                                           class="form-control" placeholder="Url . . .">
+                                </div>
+                                <span asp-validation-for="Url" class="p-1 text-danger" role="alert">
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                </span>
+                                <div class="form-line">
+                                    <input type="file" asp-for="Image" accept=".jpg ,.jpeg ,.png,.webp"
+                                           class="form-control">
+                                </div>
+                                <span asp-validation-for="Image" class="p-1 text-danger" role="alert">
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary">ثبت</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>

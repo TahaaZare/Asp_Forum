@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "خانه";
+}
+@section Header {
+    <partial name="_Header" />
+    <!-- Start Mobile Menu Area  -->
+    <partial name="_MobileMenu" />
+}
+
+<!-- End Mobile Menu Area  -->
+<!-- Start Banner Area -->
+@await Component.InvokeAsync("BannerHomePage")
+<!-- End Banner Area -->
+<!-- Start Ad Area  -->
+<partial name="_Ad" />
+<!-- End Ad Area  -->
+<!-- Start Categories List  -->
+@await Component.InvokeAsync("QuestionCategoryListHomePage")
+<!-- Start Categories List  -->
+<!-- Start Lates Questions Area  -->
+@await Component.InvokeAsync("LatestQuestionsInHomePage")
+<!-- End Lates Questions Area  -->
+<!-- Start Socials Area  -->
+<partial name="_Socials" />
+<!-- End Socials Area  -->

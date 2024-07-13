@@ -1,0 +1,94 @@
+﻿@using Forum.Application.Statics
+@model List<Forum.Domain.Models.Content.Banner>
+@{
+    TempData["Title"] = "بنر های سایت";
+    Layout = "_AdminLayout";
+}
+
+<div class="clearfix row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="card">
+            <div class="header">
+                <div class="d-flex justify-content-between">
+                    <h2>
+                        @TempData["Title"]
+                    </h2>
+                    <a asp-area="AdminPanel" asp-controller="Banner" asp-action="Create" class="btn btn-primary">
+                        افزودن بنر جدید
+                    </a>
+                </div>
+            </div>
+            <div class="body table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th class="text-center">#</th>
+                        <th class="text-center">تصویر</th>
+                        <th class="text-center">عنوان</th>
+                        <th class="text-center">لینک</th>
+                        <th class="text-center">بیشتر</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            @{
+                                var image = Paths.BannerPath + item.Image;
+                            }
+                            <th class="text-center" scope="row"></th>
+                            <td class="text-center">
+                                <img src="@image" style="width: 100px;height: 100px;border-radius: 1rem" alt="">
+                            </td>
+                            <td class="text-center">@item.Title</td>
+                            <td class="text-center">
+                                @item.Url
+                            </td>
+                            <td class="text-center">
+                                <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target=".bd-example-modal-lg-@item.Id">
+                                    بیشتر
+                                </button>
+                                <div class="modal fade bd-example-modal-lg-@item.Id" tabindex="-1"
+                                     role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+                                     style="display: none;">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="myLargeModalLabel">
+                                                    @item.Title
+                                                </h5>
+
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                    <span aria-hidden="true">×</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a asp-area="AdminPanel" asp-controller="Banner"
+                                                  asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary" >
+                                                    ویرایش 
+                                                </a>
+
+                                                <form asp-action="Delete" asp-area="AdminPanel"
+                                                      asp-controller="Banner" asp-route-id="@item.Id" method="post">
+                                                    <button type="submit" class="btn btn-danger">حذفـ</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                    </tbody>
+                </table>
+                <ul class="pagination">
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+</div>

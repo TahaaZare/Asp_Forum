@@ -1,0 +1,47 @@
+﻿
+<div class="popup-mobilemenu-area">
+    <div class="inner">
+        <div class="mobile-menu-top">
+            <div class="logo">
+                <a href="index.html">
+                    <img class="dark-logo" src="~/site/assets/images/logo/logo-black.png" alt="Logo Images">
+                    <img class="light-logo" src="~/site/assets/images/logo/logo-white2.png" alt="Logo Images">
+                </a>
+            </div>
+            <div class="mobile-close">
+                <div class="icon">
+                    <i class="fal fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <ul class="mainmenu">
+            <li>
+                <a asp-controller="Home" asp-action="Index">خانه</a>
+            </li>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <li>
+                    
+                    <a >
+                        @User.Identity.Name.ToLower()
+                    </a>
+                </li>
+                <li>
+                    <a asp-controller="Auth" asp-action="Logout">
+                        خروج
+                    </a>
+                </li>    
+                
+            }
+            else
+            {
+                <li>
+                    <a asp-controller="Auth" asp-action="Register">ثبت نام</a>
+                </li>
+                <li>
+                    <a asp-controller="Auth" asp-action="Login">ورود</a>
+                </li>
+            }
+        </ul>
+    </div>
+</div>

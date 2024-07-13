@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <partial name="_AdminMetTags"/>
+    <partial name="_AdminStyles"/>
+    @await RenderSectionAsync("Styles", false)
+</head>
+<body dir="rtl">
+<div class="loading-container">
+    <div class="loader"></div>
+</div>
+<div class="overlay"></div>
+<!-- #END# Overlay For Sidebars -->
+<partial name="_AdminNavbar"/>
+<div>
+    <partial name="_AdminLeftSide"/>
+</div>
+<section class="content">
+    <div class="container-fluid">
+        @RenderBody()
+    </div>
+</section>
+<partial name="_AdminScripts"/>
+<partial name="_Alerts"/>
+@await RenderSectionAsync("Scripts", false)
+</body>
+</html>
